@@ -7,3 +7,7 @@ Hello C# and GIT
   - if card not blocked
   - can afford
 - repay debt
+- 
+tech requriements
+java >= 8
+maven
