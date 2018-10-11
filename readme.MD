@@ -1,4 +1,4 @@
-Hello C# and GIT
+Hello JAVA SPRING I HIBERNATE and GIT
 ------------------
 
 - assign limit
