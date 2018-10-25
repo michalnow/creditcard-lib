@@ -23,7 +23,7 @@ public class CreditCardTest{
         card.assignLimit(2000);
         card.withdraw(500);
         
-        Assert.assertTrue(getBalance() == 1500);
+        Assert.assertTrue(card.getBalance() == 1500);
         
     }
 
