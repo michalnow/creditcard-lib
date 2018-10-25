@@ -17,13 +17,15 @@ public class CreditCardTest{
     }
 
     @Test
-    public void cantWithdrawWhenCantAfford(){
-
+    public void withdrawDecreaseAvaiableFounds(){
+        CreditCard card = new CreditCard();
+        
+        card.assignLimit(2000);
+        card.withdraw(500);
+        
+        Assert.assertTrue(getBalance() == 1500);
+        
     }
 
-    @Test
-    public void cantWithdrawWhenOverTheLimit(){
-
-    }
 
 }
