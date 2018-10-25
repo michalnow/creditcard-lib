@@ -20,5 +20,11 @@ public class CreditCardTest{
     public void cantWithdrawWhenCantAfford(){
 
     }
-
+    
+    @Test
+    public void canBlockCreditCard(){
+        CreditCard card = new CreditCard();
+        card.block();
+        Assert.assertTrue(card.isBlocked());
+    }
 }
