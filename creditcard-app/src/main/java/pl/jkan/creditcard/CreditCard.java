@@ -35,4 +35,8 @@ public class CreditCard{
         return balance;
 
     }
+
+    public void repay repayDebt() {
+        //dunno what this method should do
+    }
 }
