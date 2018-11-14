@@ -39,17 +39,18 @@ public class CreditCard{
         return isBlocked;
     }
 
-    public void withdraw(double amount){
-        balance -= amount;
-    }
-
     public double getBalance() {
         return balance;
-
     }
 
+    public void withdraw(double amount) {
+        balance -= amount;
+    }
+    
      public void repayDebt(double debtRepay) {
         debtAmount -= debtRepay;
         balance -= debtRepay;
     }
+
+
 }
