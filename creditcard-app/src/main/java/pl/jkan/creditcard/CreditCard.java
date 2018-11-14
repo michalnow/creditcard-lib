@@ -51,6 +51,10 @@ public class CreditCard{
         debtAmount -= debtRepay;
         balance -= debtRepay;
     }
+    
+     public void refillMoney(double amount) {
+        balance += amount;
+    }
 
 
 }
