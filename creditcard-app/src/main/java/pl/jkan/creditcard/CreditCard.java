@@ -43,12 +43,6 @@ public class CreditCard{
         return balance;
     }
 
-     public void withdraw(double amount) {
-        balance -= amount;
-    }
 
-     public void repayDebt(double debtRepay) {
-        debtAmount -= debtRepay;
-        balance -= debtRepay;
-    }
+
 }
