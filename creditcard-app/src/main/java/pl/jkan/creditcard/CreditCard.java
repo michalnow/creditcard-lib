@@ -8,6 +8,7 @@ public class CreditCard{
     private double balance;
     private double cardLimit;
     private String cardNumber;
+    private double debtAmount;
 
     public CreditCard(){
         this.cardNumber = "random_nmber";
@@ -48,11 +49,10 @@ public class CreditCard{
 
     }
 
-<<<<<<< HEAD
 
-=======
-    public void repay repayDebt() {
-        //dunno what this method should do
+    public void repayDebt(double money) {
+        balance -= money;
+        debtAmount -= money;
     }
->>>>>>> 7434bab24bab7195be37928c8ef644e9d9a928dd
+
 }
