@@ -47,24 +47,17 @@ public class CreditCard{
     public void withdraw(double amount) {
         balance -= amount;
     }
-    
+
      public void repayDebt(double debtRepay) {
         debtAmount -= debtRepay;
         balance -= debtRepay;
     }
-    
+
      public void refillMoney(double amount) {
         balance += amount;
     }
 
-
-<<<<<<< HEAD
-    public void repayDebt(double money) {
-        balance -= money;
-        debtAmount -= money;
-    }
-
 }
-=======
-}
->>>>>>> 3f852f6041bf1ba95c3eca68d708aa40de0b8d1a
+
+
+
