@@ -20,5 +20,4 @@ class CreditCardConfiguration {
 
         return api;
     }
-
 }
