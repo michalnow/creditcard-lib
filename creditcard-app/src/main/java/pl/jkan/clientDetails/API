@@ -1,0 +1,9 @@
+curl -X GET localhost:8020/clients -d
+    {"firstname": "Krzysztof"}
+
+curl -X GET localhost:8020/clients
+
+[
+    {"firstname": "Jakub"}
+    {"firstname": "Jakub",}
+]
